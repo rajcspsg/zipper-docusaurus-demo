@@ -1,0 +1,52 @@
+{
+  "name": "zipper",
+  "version": "2.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanch/zipper"
+  },
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.4.1",
+    "@docusaurus/plugin-sitemap": "^2.4.1",
+    "@docusaurus/preset-classic": "^2.4.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@mui/styles": "^5.13.2",
+    "classnames": "^2.3.2",
+    "react": "^17.0.2",
+    "react-code-blocks": "^0.0.9-0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^17.0.2",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-vertical-timeline-component": "^3.6.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "file-loader": "^6.0.0",
+    "gh-pages": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
